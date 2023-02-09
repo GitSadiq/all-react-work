@@ -1,0 +1,67 @@
+.App-header {
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: calc(8px + 2vmin);
+}
+.user{
+  display: flex;
+  margin: 4% 0% 2% 4%; 
+}
+h1{
+  color: #1877f2;
+}
+p{
+  margin: 0% 5% 5% 5%;
+}
+h3{
+  margin: 0%;
+  padding-left: 2%;
+}
+.post{
+  width: 50%;
+  border: 1px solid #f0f2f5;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .post{
+    width: 95%
+  }
+  h3{
+    margin: 3.5% 0%;
+    padding-left: 3%;
+  }
+}
+.image-div img{
+  display: block;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.comments-section{
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+.like {
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 2% 3% 0.5% 3%;
+  /* text-align: center; */
+  /* background-color: #f0f2f5; */
+  border-radius: 10px;
+}
+.like p{
+  margin: -4.5% 0% 0% 10%
+}
+.like:hover{
+  border: 1px solid #f0f2f5;
+  background-color: #f0f2f5;
+}
+

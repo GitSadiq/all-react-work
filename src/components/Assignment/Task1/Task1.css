@@ -1,0 +1,87 @@
+/* Login/SignUp Form */
+.BodyOfForm{
+  background-color: #282c34;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FormDiv{
+  background-color: white;
+  width: 60vh;
+  height: 50vh;
+  border-radius: 2vh;
+}
+.FormDivLogin{
+  background-color: white;
+  width: 60vh;
+  height: 30vh;
+  border-radius: 2vh;
+}
+/* @media screen and (max-width: 480px) {
+  .FormDiv{
+    width: 100vw;
+  }
+} */
+.LoginFromTable{
+  margin-top:  2vh;
+  /* width: 100%; */
+  /* border: 2px solid black */
+}
+.LoginRow{
+  /* border: 2px solid black; */
+  display: flex;
+  width: 100%;
+  margin-top: 5vh;
+}
+.ParaForLoginForm{
+  font-weight: bold;
+  color: #282c34;
+  font-size: 2.5vh;
+  height: 4vh;
+  /* border: none; */
+  margin: 0% 2% 0% 5%;
+  width: 45%;
+  /* margin-top: 5vh !important; */
+  /* border: 2px solid black; */
+  margin-left: 3vh;
+  padding-top: 0.2vh;
+}
+.InputCol{
+  width: 60%;
+  /* border: 2px solid black */
+  /* color: #282c34; */
+}
+.LoginFormInput{
+  height: 4vh;
+  border-radius: 2vh;
+  border: 1px solid #282c34 ;
+  padding-left: 2vh;
+  font-size: 2vh;
+  /* width: 80%; */
+  float: left;
+  /* margin-top: 5vh !important; */
+}
+
+button{
+  width: 25vh;
+  height: 5vh;
+  border-radius: 2vh;
+  background-color: #282c34;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: bold;
+  padding-top: 0.5vh;
+  margin: auto;
+  cursor: pointer;
+}
+.Login{
+  margin-top: -1vh;
+  width: 12vh;
+}
+button:hover{
+  background-color: white;
+  color: #282c34;
+  border: 2px solid #282c34;
+}

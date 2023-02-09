@@ -1,0 +1,23 @@
+.App-header {
+  background: linear-gradient(100deg, rgba(24,105,121,1) 0%, rgba(36,154,178,1) 27%, rgba(38,142,163,1) 73%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0.3vh 0.25vh #000000;
+}
+.row{
+  display: flex;
+}
+.Uncomplete{
+  display: flex;
+  cursor: pointer;
+}
+.complete{
+  text-decoration: line-through;
+  cursor: pointer;
+}
